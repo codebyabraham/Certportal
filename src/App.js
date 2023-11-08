@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+<form class="background">
+    <h1 className="text-white text-center display-1 fw-normal">Welcome! Download our Indigene  <br/> Certificate Here</h1>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-lg-1 col-form-label"></label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" placeholder='Input your Certificate Number' id="inputPassword3"/>
     </div>
-  );
+  </div>
+</form>
+    </>
+  )
 }
 
-export default App;
+export default App
